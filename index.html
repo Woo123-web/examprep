@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamPrep - Mock Test Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ExamPrep</h1>
+        <p>Practice. Prepare. Succeed.</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome to ExamPrep</h2>
+            <p>Test your knowledge with timed mock examinations.</p>
+            <button onclick="startTest()">Start Mock Test</button>
+        </section>
+
+        <section id="student-details" hidden>
+            <h2>Student Details</h2>
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="text" id="roll" placeholder="Enter Roll Number">
+            <input type="text" id="class" placeholder="Enter Class">
+            <button onclick="beginTest()">Continue</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 ExamPrep</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
